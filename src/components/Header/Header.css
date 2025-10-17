@@ -1,0 +1,13 @@
+.menu a {
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 500;
+    margin: 2px 15px;
+
+}
+.menu a.active {
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+    background-clip: text;
+    color: transparent;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #632EE3, #9F62F2) 1;
+}
