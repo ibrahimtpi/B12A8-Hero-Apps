@@ -1,0 +1,10 @@
+.footer-title {
+    font-size: 1.25rem;
+    color: #ffffff;
+    opacity: 1;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.footer-cols > nav{
+    margin-bottom: 25px;
+}
