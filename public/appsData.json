@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://picsum.photos/seed/appstore1/300/300",
+    "title": "Pro Photo Editor X",
+    "companyName": "Creative Dev Studio",
+    "id": 1001,
+    "description": "Professional photo editing tools with AI filters and advanced layer control.",
+    "size": 95.5,
+    "reviews": 15400,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 8700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore2/300/300",
+    "title": "Quick Budget Tracker",
+    "companyName": "Finance Flow Inc.",
+    "id": 1002,
+    "description": "Simple and intuitive expense tracking and budget planning for daily use.",
+    "size": 25.1,
+    "reviews": 8900,
+    "ratingAvg": 4.5,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore3/300/300",
+    "title": "Galaxy Runner 3D",
+    "companyName": "Interstellar Games",
+    "id": 1003,
+    "description": "Endless running game through futuristic cityscapes. Collect coins and unlock ships.",
+    "size": 150.8,
+    "reviews": 21200,
+    "ratingAvg": 4.2,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore4/300/300",
+    "title": "Daily Meditation Guide",
+    "companyName": "Calm Life Solutions",
+    "id": 1004,
+    "description": "Guided meditation sessions for stress relief, focus, and better sleep.",
+    "size": 55.0,
+    "reviews": 19800,
+    "ratingAvg": 4.9,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore5/300/300",
+    "title": "Code Learner Basic",
+    "companyName": "Tech Education Hub",
+    "id": 1005,
+    "description": "Learn Python and JavaScript fundamentals through interactive lessons and quizzes.",
+    "size": 40.3,
+    "reviews": 6700,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore6/300/300",
+    "title": "Local Weather Now",
+    "companyName": "Cloud Forecast Systems",
+    "id": 1006,
+    "description": "Accurate real-time weather forecasts, hourly updates, and severe weather alerts.",
+    "size": 18.2,
+    "reviews": 35000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 17500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore7/300/300",
+    "title": "Recipe Master Pro",
+    "companyName": "Culinary Apps LLC",
+    "id": 1007,
+    "description": "Thousands of recipes with step-by-step video guides and meal planning tools.",
+    "size": 88.9,
+    "reviews": 12000,
+    "ratingAvg": 4.8,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore8/300/300",
+    "title": "Fitness Workout Timer",
+    "companyName": "Gym Ready Software",
+    "id": 1008,
+    "description": "HIIT, Tabata, and custom interval timers for all your gym and home workouts.",
+    "size": 32.7,
+    "reviews": 9900,
+    "ratingAvg": 4.4,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore9/300/300",
+    "title": "Secure File Vault",
+    "companyName": "Data Protect Corp",
+    "id": 1009,
+    "description": "Encrypt and hide your private photos, videos, and documents with a secure PIN.",
+    "size": 15.6,
+    "reviews": 4500,
+    "ratingAvg": 4.7,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore10/300/300",
+    "title": "Vector Art Designer",
+    "companyName": "Artisan Tools GmbH",
+    "id": 1010,
+    "description": "Mobile vector drawing and graphic design with full layer and curve control.",
+    "size": 110.4,
+    "reviews": 7800,
+    "ratingAvg": 4.1,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore11/300/300",
+    "title": "World News Feed",
+    "companyName": "Global Info Network",
+    "id": 1011,
+    "description": "Curated news from top sources worldwide. Customizable feed and dark mode.",
+    "size": 45.0,
+    "reviews": 51000,
+    "ratingAvg": 4.0,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore12/300/300",
+    "title": "Language Buddy",
+    "companyName": "Polyglot Systems",
+    "id": 1012,
+    "description": "Learn new languages with fun interactive exercises and native speaker conversations.",
+    "size": 75.8,
+    "reviews": 18000,
+    "ratingAvg": 4.8,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 10700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore13/300/300",
+    "title": "Retro Arcade Classics",
+    "companyName": "Pixel Nostalgia Games",
+    "id": 1013,
+    "description": "A collection of 20+ classic 8-bit arcade games optimized for mobile.",
+    "size": 60.5,
+    "reviews": 14000,
+    "ratingAvg": 3.9,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore14/300/300",
+    "title": "Cloud Storage Drive",
+    "companyName": "Infinite Space Solutions",
+    "id": 1014,
+    "description": "10 GB free cloud storage for backup, sync, and secure file sharing.",
+    "size": 28.9,
+    "reviews": 42000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 10500 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore15/300/300",
+    "title": "Music Composer Studio",
+    "companyName": "Audio Pro Labs",
+    "id": 1015,
+    "description": "Create, edit, and mix music tracks with various instruments and effects.",
+    "size": 190.1,
+    "reviews": 5500,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore16/300/300",
+    "title": "Productivity To-Do List",
+    "companyName": "Focus First Team",
+    "id": 1016,
+    "description": "Task management app with reminders, categorization, and collaboration features.",
+    "size": 35.5,
+    "reviews": 11000,
+    "ratingAvg": 4.9,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 7150 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore17/300/300",
+    "title": "Simple Note Taker",
+    "companyName": "Minimalist Tools Co.",
+    "id": 1017,
+    "description": "Fast, ad-free note-taking with text formatting and cloud backup.",
+    "size": 12.0,
+    "reviews": 28000,
+    "ratingAvg": 4.5,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore18/300/300",
+    "title": "Fantasy Kingdom RPG",
+    "companyName": "Epic Adventure Games",
+    "id": 1018,
+    "description": "Open-world role-playing game with hundreds of quests and character classes.",
+    "size": 950.9,
+    "reviews": 65000,
+    "ratingAvg": 4.1,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 17000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore19/300/300",
+    "title": "Travel Navigator GPS",
+    "companyName": "Explore Maps Ltd.",
+    "id": 1019,
+    "description": "Offline maps, turn-by-turn navigation, and local points of interest finder.",
+    "size": 78.4,
+    "reviews": 16500,
+    "ratingAvg": 4.2,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/appstore20/300/300",
+    "title": "Personalized Keyboard",
+    "companyName": "Input Customization Co.",
+    "id": 1020,
+    "description": "Customizable keyboard with themes, fonts, and GIF support.",
+    "size": 51.2,
+    "reviews": 32000,
+    "ratingAvg": 4.4,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  }
+]
