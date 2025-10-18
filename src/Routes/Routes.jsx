@@ -5,6 +5,7 @@ import Home from '../pages/Home/Home.jsx';
 import ErrorPage from '../pages/ErrorPage/ErrorPage.jsx';
 import AppDetails from '../components/AppDetails/AppDetails.jsx';
 import AllApps from '../pages/AllApps/AllApps.jsx';
+import InstalledAppsList from '../components/InstalledAppsList/InstalledAppsList.jsx';
 import LoadingSpinner from '../components/LoadingSpinner/LoadingSpinner.jsx';
 
 const appsPromise = fetch('./appsData.json').then(res => res.json());
@@ -21,8 +22,6 @@ export const router = createBrowserRouter([
             element: <Suspense fallback={<LoadingSpinner />}>
                 <Home appsPromise={appsPromise}></Home>
             </Suspense>
-            // loader:()=>fetch('appsData.json'),
-            // Component: Home
         },
         {
             path: '/appDetails/:id',
@@ -36,6 +35,13 @@ export const router = createBrowserRouter([
                 <AllApps appsPromise={appsPromise}></AllApps>
             </Suspense>
         },
+        {
+            path: '/installation',
+            loader:()=>fetch('../appsData.json'),
+            element: <Suspense fallback={<LoadingSpinner />}>
+                <InstalledAppsList></InstalledAppsList>
+            </Suspense>
+        }
     ]
   },
 ]);

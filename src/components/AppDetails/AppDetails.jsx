@@ -8,8 +8,6 @@ import { installToStoreDB, getInstalledApps } from '../../utility/addToDB';
 
 import {ComposedChart, Bar, XAxis, YAxis, ResponsiveContainer,} from 'recharts';
 
-
-
 const AppDetails = () => {
     const {id} = useParams();
     const appId = parseInt(id);
@@ -20,36 +18,21 @@ const AppDetails = () => {
 
     const data = useLoaderData();
     const singleApp = data.find(book => book.id === appId);
-    // console.log(singleApp)
-    // const {id, image, companyName, title, description, downloads, ratingAvg, ratings, reviews, size} = singleApp;
     const { title, image, companyName, description, downloads, ratingAvg, ratings, reviews, size} = singleApp || {};
 
-    // const descRatings = ratings.slice().sort((a, b) => console.log(b.name));
     const sortedRatings = [...ratings].sort((a, b) => {
-        // Function to extract the star number from the name string.
-        // Example: "5 star" -> 5
         const getStarValue = (name) => parseInt(name.split(' ')[0]);
 
         const starA = getStarValue(a.name);
         const starB = getStarValue(b.name);
 
-        // For descending order (5, 4, 3, 2, 1), we compare B against A.
-        // If starB > starA, the result is positive, so B comes before A.
         return starB - starA;
     });
 
     const handleMarkAsRead = appId => {
-        // Store with Id
-        // where to store
-        // array or collection
-        // if book already exist the show an alert
-        // if book not exist then push in the collection or array
         installToStoreDB(appId);
         setIsInstalled(true);
     }
-   
-    
-
 
     return (
         <div className='app-details'>
@@ -89,30 +72,17 @@ const AppDetails = () => {
                 </div>
                 <div className="ratings py-6 my-6 border-y-1 border-[#001931]/20">
                     <h3 className='text-2xl font-semibold mb-2'>Ratings</h3>
-                    {/* {description} */ }
 
-<div className='h-80'>
-<ResponsiveContainer width="100%" height="100%">
-        <ComposedChart
-          layout="vertical"
-          width={500}
-          height={400}
-          data={sortedRatings}
-          margin={{
-            top: 20,
-            right: 20,
-            bottom: 20,
-            left: 0,
-          }}
-        >
-          <YAxis dataKey="name" type="category" scale="band" />
-          <XAxis type="number" />
-          <Bar dataKey="count" barSize={32} fill="#FF8811" />
-        </ComposedChart>
-      </ResponsiveContainer>
-</div>
-
-
+                    <div className='h-80'>
+                        <ResponsiveContainer width="100%" height="100%">
+                            <ComposedChart layout="vertical" width={500} height={400} 
+                            data={sortedRatings} margin={{top: 20, right: 20, bottom: 20, left: 0,}}>
+                                <YAxis dataKey="name" type="category" scale="band" />
+                                <XAxis type="number" />
+                                <Bar dataKey="count" barSize={32} fill="#FF8811" />
+                            </ComposedChart>
+                        </ResponsiveContainer>
+                    </div>
                 </div>
                 <div className="description pb-4">
                     <h3 className='text-2xl font-semibold mb-2'>Description</h3>

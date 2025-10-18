@@ -3,7 +3,6 @@ import logoImg from '../../assets/images/logo.png'
 import './footer.css'
 import { Link } from 'react-router';
 
-
 const Footer = () => {
     return (
         <footer className="bg-[#001931] text-neutral-content p-8">
